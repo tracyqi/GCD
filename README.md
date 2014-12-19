@@ -1,9 +1,9 @@
 Getting and Cleaning Data Course Project
 ===========================================
 
-courseID: getdata-016
-submissionID: qixi@msn.com
-Project Url: https://class.coursera.org/getdata-016/human_grading
+* courseID: getdata-016
+* submissionID: qixi@msn.com
+* Project Url: https://class.coursera.org/getdata-016/human_grading
 
 1. Background & Purpose
 =========================================
