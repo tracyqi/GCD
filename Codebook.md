@@ -31,12 +31,15 @@ Each row of the output indicating and observation that covers Mean and STD of ma
 * **Activity**: six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 * **Subject**: An unique identifier that refers to a group of 30 volunteers within an age bracket of 19-48 years |
 
+Other columns covers mean and std for below signals:
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
 
 Transformation Performed
 ===========================
+'run_analysis.R' performs below workflows to clean data/headers and summarize the data to output:
+
 * 1. Merges the training and the test sets to create one data set.
 * 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 * 3. Uses descriptive activity names to name the activities in the data set
