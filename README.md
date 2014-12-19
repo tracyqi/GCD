@@ -8,10 +8,12 @@ Project Url: https://class.coursera.org/getdata-016/human_grading
 1. Background & Purpose
 =========================================
 This  github branch includes the following files:
-* **1. 'README.md'**
+* **1. 'README.md'**: this file
 * **2. 'Codebook.md'**: Code book that describes the variables, the data, and any transformations or work that run_analysis.R performed to clean up the data 
-* **3. 'run_analysis.R'**: the R script designed to clean/tiny/transform UCI HAR - Human Activity Recongition data files. for details of the original file please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+* **3. 'final.txt'**: the final output 
+* **4. 'run_analysis.R'**: the R script designed to clean/tiny/transform UCI HAR - Human Activity Recongition data files. for details of the original file please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+Workflow of 'run_analysis.R'
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
