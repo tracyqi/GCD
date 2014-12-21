@@ -36,6 +36,7 @@ x <- rbind(read.table("UCI HAR Dataset/train/X_train.txt", header=FALSE)
            , read.table("UCI HAR Dataset/test/X_test.txt", header=FALSE))
 x <- x[, features_OK[,1]]
 names(x) <- gsub("\\(|\\)", "", features_OK[,2])
+names(x) <- tolower(names(x))  
 
 ##4.2 merge activity table and name appropriately
 y <- rbind(read.table("UCI HAR Dataset/train/y_train.txt", header=FALSE)
